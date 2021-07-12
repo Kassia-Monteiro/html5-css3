@@ -12,3 +12,12 @@ SHIFT+ALT = DUPLICA
 CTRL+D = SELECIONA PRA BAIXO QUANTOS QUISER
 
 ALT = SEGURAR PARA EDITAR TAGS
+
+
+GIT ENVIO
+git add .
+git commit -m "nome"
+git push -u origin main
+
+GIT PEGAR
+git pull
