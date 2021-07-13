@@ -11,6 +11,9 @@
 ## SHIFT+ALT = DUPLICA
 ## CTRL+D = SELECIONA PRA BAIXO QUANTOS QUISER
 ## ALT = SEGURAR PARA EDITAR TAGS
+## abbr = abreviações; ao passar o mouse mostra um texto
+## &nbsp = espaço
+## &lt;br&gt; = resulta na tag formatada <br>
 
 # GIT ENVIO
 ## git add .
