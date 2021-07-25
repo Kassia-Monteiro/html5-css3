@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/mengo.ico" type="image/x-icon">
+    <title>Testando Mídias</title>
+</head>
+<body>
+    <h1>Testando o dinamismo das imagens</h1>
+    <p>Vamos ver o quanto ficam dinâmicas as imagens com essa bela foto do Mengão!!!</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/liberta2019-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/liberta2019-m.png" type="image/png">
+        <img src="imagens/liberta2019-g.png" alt="Imagem Flexível">
+    </picture>
+    
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+    <audio src="midia/flamengo-ringtone.mp3" controls autoplay></audio>
+    <!-- Dá pra fazer loop na mídia -->
+    
+    <!-- MP3 OGG WAV (evitar por ser grande e pesado) -->
+    <!-- por ordem de carregamento-->
+    <br>
+        <audio preload="metadata" controls>
+            <source src="midia/mengo-torcida.mp3" type="audio/mpeg">
+            <source src="midia/mengo-torcida.ogg" type="audio/ogg">
+            <source src="midia/mengo-torcida.wav" type="audio/wav">
+        </audio>
+    </br>
+    <p><a href="midia/mengo-torcida.zip" download="midia/mengo-torcida.zip" type="application/zip">CLIQUE AQUI</a> para o download do arquivo em MP3.</p>
+
+    <video src="midia/mengo-torcida.mp4" controls></video>
+    <!-- MP4 M4V WEBM OGV -->
+
+</body>
+</html>
